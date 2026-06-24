@@ -27,7 +27,7 @@ The <a href="#luLu">outbound connection monitoring</a> intercepts every attempt 
 The <a href="#luLu">persistent rule management</a> stores allow and block decisions as persistent rules — once a process is allowed or blocked, the rule applies to future attempts without prompting again. Rules are manageable through LuLu preferences, allowing review, modification, and deletion as the set of running software and trusted processes changes. The <a href="#luLu">unknown process detection</a> flags processes that cannot be verified against known signatures — unsigned code, newly installed software, and processes whose origin is uncertain receive special attention, highlighting the cases where unauthorized network access is most concerning.</p>
 
 <p align="center">
-  <img src="https://static.macupdate.com/screenshots/236585/m/lulu-screenshot.png?v=1656437871" alt="LuLu screenshot"/>
+  <img src="https://pic.macked.app/static/021f548db573f2ccd138d3444bc66b49-1677505356.webp" alt="LuLu screenshot"/>
 </p>
 
 <a href="#luLu">Block mode</a> blocks all outbound connections by default, requiring explicit allow rules for any process to access the network — the most restrictive posture for maximum control. <a href="#luLu">Allow mode</a> permits known trusted processes while alerting on new or unrecognized connection attempts — a balanced approach that permits normal operation while maintaining visibility over new network activity.
